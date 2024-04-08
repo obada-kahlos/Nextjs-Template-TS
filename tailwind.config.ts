@@ -27,7 +27,7 @@ const config: Config = {
         dark_main_color: "",
         dark_heading_color: "#ffffff",
         dark_paragraph_color: "#fdfdfd",
-        dark_bg_color: "#040404",
+        dark_bg_color: "#07182f",
         dark_border_color: "#CCCCCC",
         dark_secondary_bg_color: "#1d2447",
         dark_boxes_color: "#333333",
