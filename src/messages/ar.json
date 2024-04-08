@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "المشروع أكس"
+  },
+  "login": {
+    "SignUp": "انشاء حساب",
+    "SignIn": "تسجيل دخول",
+    "Username": "اسم المستخدم",
+    "Password": "كلمة المرور",
+    "ForgotPassword": "نسيت كلمة المرور؟",
+    "ResetPassword": "إعادة تعيين كلمة المرور",
+    "NoAccount": "ليس ليدك حساب؟",
+    "UsernameIsRequired": "اسم المستخدم مطلوب",
+    "PasswordIsRequired": "كلمة المرور مطلوبة",
+    "Reset": "إعادة تعيين كلمة المرور",
+    "EmailIsRequired": "البريد الالكتروني مطلوب",
+    "Verify": "تأكيد",
+    "VerifyEmail": "التحقق من البريد الإلكتروني"
+  }
+}

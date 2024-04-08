@@ -1,0 +1,20 @@
+{
+  "Index": {
+    "title": "Project X"
+  },
+  "login": {
+    "SignUp": "Sign up",
+    "SignIn": "Sign in",
+    "Username": "Username",
+    "Password": "Password",
+    "ForgotPassword": "Forget password?",
+    "ResetPassword": "Reset password",
+    "NoAccount": "You don’t have account?",
+    "UsernameIsRequired": "Username is required",
+    "PasswordIsRequired": "Password is required",
+    "Reset": "Reset password",
+    "EmailIsRequired": "Email is required",
+    "Verify": "Verify",
+    "VerifyEmail": "Verify email"
+  }
+}
