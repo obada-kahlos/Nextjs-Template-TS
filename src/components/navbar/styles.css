@@ -1,6 +1,6 @@
 a.link {
     position: relative;
-    width: 120px;
+    min-width: 120px;
     height: 70px;
     line-height: 70px;
     text-align: center;
@@ -14,7 +14,7 @@ a.link {
   
   a.active-link {
     position: relative;
-    width: 120px;
+    min-width: 120px;
     height: 70px;
     line-height: 70px;
     text-align: center;

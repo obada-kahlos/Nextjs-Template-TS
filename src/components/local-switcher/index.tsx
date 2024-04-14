@@ -8,7 +8,6 @@ export default function LocalSwitcher() {
   const router = useRouter();
   const localActive = useLocale();
 
-
   // let pathname = "/en/login";
   // const languages = ["/en", "/ar"];
 
@@ -31,11 +30,11 @@ export default function LocalSwitcher() {
       disabled={isPending}
       onChange={onSelectChange}
       className={
-        "border border-[#D6DDEB] w-full h-[43px] pl-4 rounded-[6px]"
+        "border border-[#D6DDEB] w-[140px] h-[43px] pl-4 rounded-[6px]"
       }
     >
       <option value={"en"}> English </option>
-      <option value={"ar"}> Arabic </option>
+      <option value={"ar"}> العربية </option>
     </select>
   );
 }

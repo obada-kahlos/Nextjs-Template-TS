@@ -7,7 +7,11 @@ import LocalSwitcher from "../local-switcher";
 import { useLocale } from "next-intl";
 import { TypographyRace } from "../Typography/Typography";
 
-const Navbar = () => {
+interface TransitionProps {
+  login: string;
+}
+
+const Navbar = ({ Transition }: { Transition: TransitionProps }) => {
   const pathname = usePathname();
   const localActive = useLocale();
 
@@ -22,7 +26,7 @@ const Navbar = () => {
     }
   }, [darkMode]);
 
-  const navLinks = [{ name: "Login", href: `/${localActive}/login` }];
+  const navLinks = [{ name: Transition?.login, href: `/${localActive}/login` }];
 
   return (
     <nav className="sticky top-0 left-0 w-full h-[70px] dark:bg-dark_secondary_bg_color bg-light_bg_color overflow-hidden shadow-md z-50">

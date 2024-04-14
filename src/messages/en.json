@@ -1,6 +1,7 @@
 {
   "Index": {
-    "title": "Project X"
+    "title": "Project X",
+    "login": "Login"
   },
   "login": {
     "SignUp": "Sign up",

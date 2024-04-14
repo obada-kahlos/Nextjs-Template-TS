@@ -1,4 +1,3 @@
-import HereRegistration from "@/components/here-registration";
 import Login from "./login";
 import { useTranslations } from "next-intl";
 import { Screen } from "@/components/screen";
